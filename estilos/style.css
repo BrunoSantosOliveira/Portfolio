@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -6,7 +10,6 @@ body{
     font-family: Rubik, Arial;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 header{
@@ -21,6 +24,8 @@ header{
     font-size: 18px;
     height: 10vh;
     backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 ul{
@@ -64,5 +69,10 @@ a:hover{
 .sobre{
     width: 100vw;
     height: 100vh;
-    background-color: green;
+    background-color: rgba(0,50,13,255);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
