@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik, Arial;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100vw;
+    font-size: 18px;
+    height: 10vh;
+    backdrop-filter: blur(5px);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 600;
+}
+
+li{
+    display: flex;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.175s;
+}
+
+a:hover{
+    color: rgb(77, 153, 1);
+}
+
+.listaHeader{
+    margin-right: 7%;
+}
+
+.logoBruno{
+    margin-left: 7%;
+}
+
+.home{
+    background-image: url(imgs/backgroundHome.jpg);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    transform: rotate(180deg);
+}
+
+.sobre{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
