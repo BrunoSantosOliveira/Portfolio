@@ -10,6 +10,7 @@ body{
     font-family: Rubik, Arial;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 header{
@@ -63,7 +64,6 @@ a:hover{
     background-size: 100%;
     width: 100vw;
     height: 100vh;
-    transform: rotate(180deg);
 }
 
 .sobre{
@@ -76,3 +76,14 @@ a:hover{
     width: 0px;
     height: 0px;
 }
+
+.mainHome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    font-size: 25px;
+}
+
+#textNameHome
