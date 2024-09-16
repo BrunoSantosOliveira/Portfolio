@@ -82,7 +82,7 @@ a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 25vh;
+    margin-top: 20vh;
     font-size: 30px;
 }
 
@@ -102,4 +102,11 @@ a:hover{
     width: 55px;
     height: 55px;
     border-radius: 50px;
+}
+
+.setaInteira{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
 }
