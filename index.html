@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Linkando Fonte do Site-->
+    <!-- Linkando Fonte do Site -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!-- Script para adicionar o IONICON ao html -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,29 +23,29 @@
 
         <div class="listaHeader">
             <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Habilidades</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contatos">Contato</a></li>
             </ul>
         </div>
     </header>
 
-    <div class="home">
+    <div class="home" id="home">
         <div class="homeTotal">
             <div class="mainHome">
                 <h1 id="textRecepHome">Eai, eu sou</h1> <h1 id="textNameHome">Bruno Oliveira</h1>
             </div>
 
             <div class="setaInteira">
-                <img src="imgs/gifSetaDown.gif" alt="Descer">
+                <ion-icon name="chevron-down-outline"></ion-icon>
             </div>
         </div>
     </div>
 
-    <div class="sobre">
-        
+    <div class="sobre" id="sobre">
+        <div class="myPicture"><img src="imgs/myPicture.jpg" alt="MyPicture"></div>
     </div>
 </body>
 </html>
